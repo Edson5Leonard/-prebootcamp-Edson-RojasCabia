@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    background-image: url(/imagenes/fondo.jpg);
+    background-size: cover; /*Esto va  hacer cubrir toda la pantalla de la imagen*/
+    background-position: center;    /* Centra la imagen */
+    background-repeat: no-repeat;   /* Evita que se repita */
+    height: 100vh;                  /* Altura completa de la ventana */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#saludo {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
